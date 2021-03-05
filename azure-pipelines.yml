@@ -5,7 +5,7 @@ pool:
   vmImage: 'windows-2019' # set to windows-latest or another Windows vmImage for Windows builds
 
 variables:
-  imageName: 'pipelines-javascript-docker'
+  imageName: 'microsoft/windowsservercore'
 
 steps:
 - task: Docker@2
