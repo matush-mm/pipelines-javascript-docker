@@ -1,7 +1,8 @@
 trigger:
 - main
 
-pool:
+pool: 
+  name: Default
   vmImage: 'windows-2019' # set to windows-latest or another Windows vmImage for Windows builds
 
 variables:
